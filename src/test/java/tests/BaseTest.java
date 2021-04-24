@@ -20,8 +20,6 @@ public class BaseTest {
 
     @BeforeClass
     public void classLevelSetup() {
-   
-    		
     	// chrome 
     	System.setProperty("webdriver.chrome.driver","/Users/indah/eclipse-workspace/Testselenium/lib/driver/chromedriver");
 		driver = new ChromeDriver();
