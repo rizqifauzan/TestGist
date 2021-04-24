@@ -20,11 +20,11 @@ public class BaseTest {
 
     @BeforeClass
     public void classLevelSetup() {
-    	
+   
+    		
     	// chrome 
-    	System.setProperty("webdriver.chrome.driver", "/Users/rizqi.fauzan/Downloads/chromedriver2");
-        driver = new ChromeDriver();
-
+    	System.setProperty("webdriver.chrome.driver","/Users/indah/eclipse-workspace/Testselenium/lib/driver/chromedriver");
+		driver = new ChromeDriver();
         // firefox
 //        System.setProperty("webdriver.gecko.driver", "/Users/rizqi.fauzan/Downloads/geckodriver");
 //        driver = new FirefoxDriver();

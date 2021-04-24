@@ -12,7 +12,7 @@ public class GithubLoginPage extends BasePage {
 
     /**Variables*/
     String baseURL = "https://github.com/login";
-    String gitsPage = "https://gits.github.com";
+    String gitsPage = "https://gist.github.com";
     
     
     /**Web Elements*/
