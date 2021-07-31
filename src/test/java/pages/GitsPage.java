@@ -35,7 +35,7 @@ public class GitsPage extends BasePage {
     By privacy = By.xpath("//span[contains(.,'Create public gist')]");
     By lblTerms = By.xpath("//a[.='Terms']");
     
-    By btnSecurity = By.xath("//a[.='Security']");
+    By btnSecurity = By.xpath("//a[.='Security']");
     
     /**Page Methods*/
     public GitsPage verivyPage() {
