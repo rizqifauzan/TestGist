@@ -32,6 +32,8 @@ public class GitsPage extends BasePage {
     
     By btnDelete = By.xpath("//button[@class='btn btn-sm btn-danger']");
     
+    By btnSecurity = By.xath("//a[.='Security']");
+    
     /**Page Methods*/
     public GitsPage verivyPage() {
     	waitVisibility(backToGithub);
