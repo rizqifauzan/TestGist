@@ -31,7 +31,7 @@ public class GitsPage extends BasePage {
     By btnSubmitUpdate = By.cssSelector(".btn-primary[type='submit']");
     
     By btnDelete = By.xpath("//button[@class='btn btn-sm btn-danger']");
-    
+    By privacy = By.xpath("//span[contains(.,'Create public gist')]");
     /**Page Methods*/
     public GitsPage verivyPage() {
     	waitVisibility(backToGithub);
