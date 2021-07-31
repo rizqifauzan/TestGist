@@ -32,6 +32,8 @@ public class GitsPage extends BasePage {
     
     By btnDelete = By.xpath("//button[@class='btn btn-sm btn-danger']");
     By status = By.xpath("//a[.='Status']");
+    By privacy = By.xpath("//span[contains(.,'Create public gist')]");
+    By lblTerms = By.xpath("//a[.='Terms']");
     
     /**Page Methods*/
     public GitsPage verivyPage() {
