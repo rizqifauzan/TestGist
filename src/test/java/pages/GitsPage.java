@@ -31,6 +31,7 @@ public class GitsPage extends BasePage {
     By btnSubmitUpdate = By.cssSelector(".btn-primary[type='submit']");
     
     By btnDelete = By.xpath("//button[@class='btn btn-sm btn-danger']");
+    By linkApi = By.xpath("//a[.='API']");
     
     /**Page Methods*/
     public GitsPage verivyPage() {
