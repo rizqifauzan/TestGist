@@ -7,4 +7,5 @@ mvn clean test -DsuiteXmlFile=TesnNG.xml
 
 Make sure you have edit the browser driver on BaseTest.java
 
+
 Make sure the BaseTest.java is updated
