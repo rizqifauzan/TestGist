@@ -6,4 +6,6 @@ for running this
 mvn clean test -DsuiteXmlFile=TesnNG.xml
 
 Make sure you have edit the browser driver on BaseTest.java
-(tambah komen)
+
+
+Make sure the BaseTest.java is updated
